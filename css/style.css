@@ -1,0 +1,36 @@
+body{
+    background-image: url("../images/imageedit_1_8592127460.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    /*background-position: center center;*/
+}
+.navbuttons{
+    box-shadow: 5px 5px 5px grey;
+}
+.content{
+    color:aliceblue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    text-shadow: 2px 2px black;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+#profilkep{
+    margin-top: 2em;
+    border-radius: 40%;
+    max-width: 20%;
+}
+#szoveg{
+    font-style: oblique;
+}
+.footer{
+    color:white;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
