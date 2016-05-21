@@ -33,4 +33,9 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
+    background: rgba(50, 50, 50, .65);
 }
+.footer .container{
+    margin-top: 1em;
+}
+

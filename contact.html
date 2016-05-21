@@ -1,16 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <title>Title</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+          integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<div id="wrapper">
+    <!--NAV MENU-->
+    <header>
+        <nav class="container p-t-2">
+            <div class="row" class="btn-group" data-toggle="buttons">
+                <div class="col-sm-4">
+                    <a href="index.html" class="btn btn-secondary btn-block navbuttons active" role="button">Home</a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="contact.html" class="btn btn-secondary btn-block navbuttons" role="button">Contact</a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="contact.html" class="btn btn-secondary btn-block navbuttons" role="button">Third</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--MAIN CONTENT-->
+    <div class="content m-t-3">
+        <form role="form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <button type="submit" class="btn btn-secondary" disabled="disabled">Send</button>
+        </form>
+
+
+    </div>
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2016 Kesik András</p>
+
+        </div>
+    </footer>
+</div>
+<!-- jQuery first, then Bootstrap JS. -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"
+        integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7"
+        crossorigin="anonymous"></script>
 </body>
 </html>
