@@ -30,6 +30,7 @@
 
         if (validName && validEmail && validMessage) {
             document.getElementById("sendButton").disabled = false;
+            // document.getElementById("sendMessage").addEventListener("click",sendMessage);
         }
 
 
@@ -37,10 +38,10 @@
 
 
     var sendMessage = function () {
-
+        alert(name.value+"\n"+email.value+"\n"+message.value+"\n"+"Your message was sent!");
     }
 
-
+    document.getElementById("sendButton").addEventListener("click",sendMessage);
     name.addEventListener('change', validateContactData);
     email.addEventListener('change', validateContactData);
     message.addEventListener('change', validateContactData);
